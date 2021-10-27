@@ -1,0 +1,13 @@
+Exercicio 1 - Pasta Exercicio1e2Lista2
+pacote de dados possui a resolução do exercicio 1
+
+Exercicio 2 - Pasta Exercicio1e2Lista2
+pacote de principal possui a resolução do exercicio 2
+
+Exercicio 3 - Pasta Exercicio3Lista2
+pacote dados possui a implementação da classe Imovel e pacote negocio a implementação da classe Imobiliaria
+pacote apresentação possui um menu para teste das funções
+
+Exercicio 4 - Pasta Exercicio4Lista2
+pacote dados possui a implementação da classe Pessoa e pacote negocio a implementação da classe Sorteador
+pacote apresentação possui um menu para teste das funções
