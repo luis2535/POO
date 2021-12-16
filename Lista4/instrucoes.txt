@@ -1,0 +1,43 @@
+Observação: em nenhuma questão eu cheguei a criar um menu para trabalhar com as funções, porem em todas elas instanciei testes com todas as funções
+digitadas e todas estão funcionando de acordo com os requerimentos das questões.
+
+Exercicio1 - pasta exercicio1Lista4
+
+Classe Animal no pacote dados é a classe abstrata.
+As demais classes extendem a classe abstrata Animal.
+Classe Main no pacote dados possui 2 instancias de cada classe descrita acima.
+
+Exercicio2 - pasta exercicio2Lista4
+
+Classe FormaGeometrica no pacote dados é a classe abstrata, para melhor funcionamento da função, os metodos abstratos
+tiveram o seu retorno alterado de int para double.
+Classe Trapezio no pacote dados extende a classe FormaGeometrica, para o calculo da area e perimetro do trapezio foram utilizadas as formula :
+A = (B + b)* h/2
+
+P = 2*Raiz(((B-b)/2)^2) + B + b
+
+Classe Losango no pacote dados extende a classe FormaGeometrica, para calculo da area e perimetro do losango foram utilizadas as formulas:
+A = D*d/2
+
+P=4 * Raiz(D^2/4 + d^2/4)
+
+Classe Circulo no pacote dados extende a classe FormaGeometrica, para calculo da area e perimetro do circulo foram utilizadas as formulas:
+A = PI * R^2
+
+P = Pi * R*2
+
+Classe Main no pacote de dados possui 2 instancias de cada uma das classes descritas.
+
+Exercicio 3 - pasta exercicio3Lista4
+
+
+Classe Digrafo no pacote de dados possui a superclasse, o atributo escolhido foi o matrizAdjacencia2, que utiliza um Map que contem um Integer
+e uma List de Integer, para conseguir fazer as operações tanto na classe Digrafo e na classe Grafo, o atributo da matrizAdjacencia2 teve que ser alterado 
+de privado para protected.
+
+A classe Main possui uma implementação para a classe Digrafo e uma implementação para classe Grafo, em ambos os casos foram adicionados alguns vertices e
+algumas arestas para testar o funcionamento, não cheguei a deixar nenhum caso na main que acontece isso, mas se em algum momento for adicionado uma aresta em 
+uma posição inexistente, sera apresentado no console um aviso de que não é possivel fazer uma aresta naquela localização.
+
+
+

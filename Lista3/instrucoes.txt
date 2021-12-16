@@ -1,0 +1,21 @@
+Nao consegui implementar o scanner de arquivos nos exercicios 1 e 4, porém eles estão funcionando conforme o enunciado
+Exercicio 1 - Pasta exercicio1Lista3
+Pacote de dados possui a implementaçao da classe Pessoa.
+Pacote de negocio possui a implementação de funções para cadastrar as pessoas.
+Pacote de apresentacao possui a implementacao cadastro e impressão de pessoas.
+A cada pessoa cadastrada sera printada no console os cadastros. 
+Após o cadastro de uma pessoa devera ser digitado -1 para o fim dos cadastros ou qualquer outro numero para continuar a implementação. 
+
+Exercicio 2 - Pasta exercicio2e3Lista3
+Pacote de dados possui todas as implementações de Matriz e Quadrante solicitadas pela questão.
+
+Exercicio 3 - Pasta exercicio2e3Lista3
+Pacote de apresentacao possui a implementação da função para calcular o menor valor e a entrada dos dados da matriz.
+
+Exercicio 4 - Pasta exercicio4Lista3
+Pacote dados possui a implementação das classes Pessoa, Equipe e Turma .
+Pacote apresentacao possui a implementação dos teste.
+Inicialmente devem ser adicionados todos os alunos e ao digitar -1 o programa apresentará as equipes se tiverem mais de 5 alunos cadastrados,
+pois o enunciado diz que devem ser equipes de 3 e 4 alunos, não sendo especificado como implementar para menos de 6 alunos
+Se tiver menos de 5 alunos sera imprimida uma lista de aluno ordenada por media.
+Algumas funções tiveram que ser adicionadas tanto na classe Equipe como na classe Turma para otimizar o funcionamento dos testes.

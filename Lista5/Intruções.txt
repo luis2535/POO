@@ -1,0 +1,32 @@
+Exercicio1 - Pasta exercicio1Lista5
+
+As implementações estão todas no pacote de dados.
+Na classe Main, todos os objetos são instanciados e adicionados a uma List de IOperacaoInteira, é feito um loop de 4 repetições, em
+cada repetição se gera aleatoriamente 2 valores serviram de parametros pra instanciar as operações geradas.
+
+
+Exercicio 2 - Pasta exercicio2Lista5
+
+Durante a execução da função distribuirProcessos, de acordo com a logica que eu desenvolvi, a unica exceção que acontece é a exce-
+ção ProcessoSemJuiz, para testar as demais exceções, desenvolvi 2 funções na camada de apresentação, uma delas tenta adicionar um
+processo em uma pilha de um juiz que ja está cheia, apresentando a exceção PilhaCheiaException e a outra função eu instanciei outro
+juiz e tentei remover um processo da pilha do mesmo, que como estava vazia apresenta a exceção PilhaVaziaException.
+
+Na função de distribuir os processos, o que está acontecendo é o seguinte: Um index aleatorio é gerado, esse index representa um
+dos processos salvos na lista, os processos sorteados estão sendo alocados da seguinte maneira, o primeiro sorteado é enviado para 
+o primeiro juiz, o segundo para o segundo juiz e assim até o ultimo juiz, quando chega no ultimo, o programa volta a apontar para o 
+primeiro juiz e o loop continua, antes de cadastrar, é verificado se o numero de cadastros na pilha do juiz é o menor q o limite, se
+for ele adiciona sem problemas, se for igual, ele passa esse mesmo processo para o próximo juiz, e assim vai, se ao fim de um loop, voltar
+para o juiz inicial e esse valor ainda não tiver sido adicionado, o sistema da uma mensagem de erro.
+
+Exercicio 3 - Pasta exercicio3Lista5
+
+Na camada de apresentação esta ocorrendo a instanciação da classe SistemaArquivos, gerando 5 arquivos e adicionando a dois diretorios,
+sendo eles 1 documento, 2 videos e 2 musicas, para testar as exceções, eu tento adicionar 4 novos arquivos que apresentam a exceção
+NomeInvalidoException, para mostrar que funciona em todos os casos 2 deles são documentos, 1 é video e 1 é musica. Os seguintes nomes 
+foram utilizados nos testes:
+1 - textocccccccccccccccccc)cccccccccccc
+2 - musica\n com espaço
+3 - pequeno
+4 - textocccccccccccccccccc'cccccccccccc
+cada um desses nomes apresenta 1 das 4 exceções de nomes invalidos.
